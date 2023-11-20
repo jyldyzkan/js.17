@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: transparent;
+}
+header{
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #864d08;
+}
+nav{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+nav button{
+    padding: 10px 20px;
+    background-color: transparent;
+    color: #ffffff;
+    border: 1px solid #ffffff;
+    border-radius: 8px;
+    font-size: 14px;
+    cursor: pointer;
+}
+nav button:hover{
+    background-color: #f58f18;
+    transition: 0.6s;
+}
+
+.label-container{
+    padding:30px 0 ;
+}
+
+.container{
+    max-width: 1280px;
+    margin: 0 auto;
+
+}
+.card-img{
+    width: 100%;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -15px;
+}
+.col-6{
+    width: 45%;
+    padding: 15px;
+}
+.col-3{
+    max-width: 25%;
+    padding: 15px;
+}
+h5{
+    font-size: 20px;
+    color: black;
+}
+.row img{
+    border-radius: 8px;
+}
+p{
+    font-family: "Blackadder ITC", sans-serif;
+    font-size: 25px;
+    margin: 10px 0;
+}
+.innerCol {
+    max-width: 50%;
+    padding: 15px;
+}
+img{
+    width: 100%;
+}
+#searchInput{
+    padding: 10px 25px;
+    border-radius: 10px;
+    border: 1px solid deepskyblue;
+
+}
+#searchButton{
+    padding: 8px 24px;
+    border-radius: 10px;
+    border: 1px solid deepskyblue;
+    background-color: transparent;
+   margin-left: 20px;
+}
+h2{
+    margin: 13px 0;
+}
+.col-6 img{
+    border-radius: 50%;
+    width: 450px;
+}
+.hidden{
+    display: none;
+}
+.row1{
+    display: flex;
+}
